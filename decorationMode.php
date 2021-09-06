@@ -38,5 +38,7 @@ class SEOArt extends BaseArt{
 $b = new SEOArt(new BianArt(new BaseArt('天天向上')));
 // $b = new BianArt(new SEOArt(new BaseArt('天天向上')));
 
+
+
 echo $b->decorator();
 
